@@ -1,0 +1,10 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+#*
+staging/*
+venv/*
+src/__pycache__/*
+.env
+venv/
+src/__pycache__/
+.cache.sqlite
+snowflake_private_key.p8
