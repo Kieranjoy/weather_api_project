@@ -1,0 +1,16 @@
+[0m15:46:27.649566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294E2E58AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294DFF74F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294E567B9D0>]}
+
+
+============================== 15:46:27.655344 | 1952076d-86e4-47d3-84d6-fb3014f388ba ==============================
+[0m15:46:27.655344 [info ] [MainThread]: Running with dbt=1.12.0
+[0m15:46:27.656238 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\KieranJoymungul\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m15:46:27.669352 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\KieranJoymungul\.dbt
+[0m15:46:38.005835 [debug] [MainThread]: Starter project path: C:\Users\KieranJoymungul\Documents\Python Projects\weather_api_call\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:46:38.017745 [info ] [MainThread]: Setting up your profile.
+[0m15:46:38.018799 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m15:46:38.020549 [debug] [MainThread]: Command `dbt init` failed at 15:46:38.020362 after 10.52 seconds
+[0m15:46:38.021066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294E57023F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294E572A8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294E56A6AD0>]}
+[0m15:46:38.021589 [debug] [MainThread]: Flushing usage events
+[0m15:46:38.864579 [debug] [MainThread]: An error was encountered while trying to flush usage events
