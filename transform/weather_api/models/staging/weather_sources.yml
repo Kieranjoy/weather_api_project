@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: weather
+    database: TIL_PORTFOLIO_PROJECTS
+    schema: KJ_WEATHER
+    tables: 
+    - name: hforecast_src
+      columns: 
+        - name: load_date
+          tests: 
+            #- unique
+            - not_null
+    - name: hweather_src
+      columns:
+        - name: load_date
+          tests: 
+            #- unique
+            - not_null
+
+    - name: cforecast_src
+      columns:
+        - name: load_date
+          tests: 
+            #- unique
+            - not_null
+
+    - name: special_src
+      columns:
+        - name: load_date
+          tests: 
+            #- unique
+            - not_null
+
